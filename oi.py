@@ -187,7 +187,7 @@ def تم_التوليد(مكان_الحالة):
 
 
 # دوال الذكاء الاصطناعي
-API_KEY = "AQ.Ab8RN6L_SMVGa2cQ4zMR6_x-wnss4D1T5ceLI7-eOXGz8jijxA"
+st.secrets["GEMINI_API_KEY"]
 
 
 def call_gemini(prompt_content):
@@ -336,7 +336,7 @@ def stafe3(مكان_الحالة, user_text):
 st.markdown("""
 <div class="hero-box">
     <div class="hero-title">🎞️ مولد الفيديوهات بالذكاء الاصطناعي</div>
-    <p class="hero-sub">✍📍 اصنع فيديوهاتك الكرتونية والقصصية الناطقة بسهولة ومجاناً — تطوير: <b style="color:#00FF7F;">المطور عباس</b></p>
+    <p class="hero-sub">✍📍 اصنع فيديوهاتك الكرتونية والقصصية الناطقة بسهولة ومجاناً — تطوير: <b style="color:#00FF7F;"> المطور عباس عبدالرحمن</b></p>
     <div class="dev-note">⚠️ ملاحظة صغيرة: قد يصيب البرنامج خطأ أحياناً بسبب أن شخصاً واحداً فقط يقوم بتطويره، شكراً لتفهمكم ودعمكم 💜</div>
 </div>
 """, unsafe_allow_html=True)
