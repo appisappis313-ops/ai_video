@@ -187,7 +187,7 @@ def تم_التوليد(مكان_الحالة):
 
 
 # دوال الذكاء الاصطناعي
-st.secrets["GEMINI_API_KEY"]
+API_KEY=st.secrets["GEMINI_API_KEY"]
 
 
 def call_gemini(prompt_content):
